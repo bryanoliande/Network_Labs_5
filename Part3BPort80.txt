@@ -1,0 +1,76 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     33182→80 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=4322385 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 33182 (33182), Dst Port: 80 (80), Seq: 0, Len: 0
+    Source Port: 33182 (33182)
+    Destination Port: 80 (80)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+    .... 0000 0000 0010 = Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x59fb [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000000000    10.0.5.22             10.0.5.11             TCP      60     80→33182 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 33182 (33182), Seq: 1, Ack: 1, Len: 0
+    Source Port: 80 (80)
+    Destination Port: 33182 (33182)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0100 = Flags: 0x014 (RST, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .1.. = Reset: Set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 0
+    [Calculated window size: 0]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x286e [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 5.000321000    CadmusCo_f0:45:54     CadmusCo_d3:f3:47     ARP      60     Who has 10.0.5.22?  Tell 10.0.5.11
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 5.001259000    CadmusCo_d3:f3:47     CadmusCo_f0:45:54     ARP      60     10.0.5.22 is at 08:00:27:d3:f3:47
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Address Resolution Protocol (reply)

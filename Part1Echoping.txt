@@ -1,0 +1,45 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.5.11             10.0.5.22             ECHO     298    Request
+
+Frame 1: 298 bytes on wire (2384 bits), 298 bytes captured (2384 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+User Datagram Protocol, Src Port: 58127 (58127), Dst Port: 7 (7)
+Echo
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.001957000    10.0.5.22             10.0.5.11             ECHO     298    Response
+
+Frame 2: 298 bytes on wire (2384 bits), 298 bytes captured (2384 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+User Datagram Protocol, Src Port: 7 (7), Dst Port: 58127 (58127)
+Echo
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 5.004566000    CadmusCo_f0:45:54     CadmusCo_d3:f3:47     ARP      60     Who has 10.0.5.22?  Tell 10.0.5.11
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 5.005543000    CadmusCo_d3:f3:47     CadmusCo_f0:45:54     ARP      60     Who has 10.0.5.11?  Tell 10.0.5.22
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 5.005543000    CadmusCo_d3:f3:47     CadmusCo_f0:45:54     ARP      60     10.0.5.22 is at 08:00:27:d3:f3:47
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 5.005543000    CadmusCo_f0:45:54     CadmusCo_d3:f3:47     ARP      60     10.0.5.11 is at 08:00:27:f0:45:54
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Address Resolution Protocol (reply)

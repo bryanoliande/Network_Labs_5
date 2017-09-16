@@ -1,0 +1,1345 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     49514→23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=4822856 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000000000    10.0.5.22             10.0.5.11             TCP      74     23→49514 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=4824199 TSecr=4822856 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.001914000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=4822857 TSecr=4824199
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.006798000    10.0.5.22             10.0.5.11             TELNET   78     Telnet Data ...
+
+Frame 4: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 1, Ack: 1, Len: 12
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.007776000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=1 Ack=13 Win=29312 Len=0 TSval=4822858 TSecr=4824200
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 1, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.007776000    10.0.5.11             10.0.5.22             TELNET   78     Telnet Data ...
+
+Frame 6: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 1, Ack: 13, Len: 12
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.007776000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=13 Ack=13 Win=29056 Len=0 TSval=4824201 TSecr=4822858
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 13, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.007776000    10.0.5.22             10.0.5.11             TELNET   84     Telnet Data ...
+
+Frame 8: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 13, Ack: 13, Len: 18
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.008752000    10.0.5.11             10.0.5.22             TELNET   100    Telnet Data ...
+
+Frame 9: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 13, Ack: 31, Len: 34
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.008752000    10.0.5.22             10.0.5.11             TELNET   81     Telnet Data ...
+
+Frame 10: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 31, Ack: 47, Len: 15
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.009731000    10.0.5.11             10.0.5.22             TELNET   90     Telnet Data ...
+
+Frame 11: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 47, Ack: 46, Len: 24
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.013639000    10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 12: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 46, Ack: 71, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.013639000    10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 13: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 71, Ack: 49, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.014612000    10.0.5.22             10.0.5.11             TELNET   100    Telnet Data ...
+
+Frame 14: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 49, Ack: 74, Len: 34
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.052949000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=74 Ack=83 Win=29312 Len=0 TSval=4822870 TSecr=4824202
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 74, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 1.240802000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 16: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 74, Ack: 83, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 1.241738000    10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 17: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 83, Ack: 75, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 1.241738000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=75 Ack=84 Win=29312 Len=0 TSval=4823167 TSecr=4824509
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 75, Ack: 84, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 1.302412000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 19: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 75, Ack: 84, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 1.303447000    10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 20: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 84, Ack: 76, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 1.303447000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=76 Ack=85 Win=29312 Len=0 TSval=4823182 TSecr=4824524
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 76, Ack: 85, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 1.477789000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 22: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 76, Ack: 85, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 1.478766000    10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 23: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 85, Ack: 77, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 1.478766000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=77 Ack=86 Win=29312 Len=0 TSval=4823226 TSecr=4824568
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 77, Ack: 86, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 1.575971000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 25: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 77, Ack: 86, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 1.576947000    10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 26: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 86, Ack: 78, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 1.577927000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=78 Ack=87 Win=29312 Len=0 TSval=4823251 TSecr=4824593
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 78, Ack: 87, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 1.699582000    10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 28: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 78, Ack: 87, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 1.701535000    10.0.5.22             10.0.5.11             TELNET   78     Telnet Data ...
+
+Frame 29: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 87, Ack: 80, Len: 12
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 1.701535000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=80 Ack=99 Win=29312 Len=0 TSval=4823282 TSecr=4824624
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 80, Ack: 99, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 1.995238000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 31: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 80, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 2.036308000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=81 Win=29056 Len=0 TSval=4824708 TSecr=4823355
+
+Frame 32: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 81, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 2.112955000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 33: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 81, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 2.113928000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=82 Win=29056 Len=0 TSval=4824727 TSecr=4823385
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 82, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 2.262885000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 35: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 82, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 2.263385000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=83 Win=29056 Len=0 TSval=4824764 TSecr=4823422
+
+Frame 36: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 2.436907000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 37: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 83, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 2.437880000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=84 Win=29056 Len=0 TSval=4824808 TSecr=4823466
+
+Frame 38: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 84, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 2.624473000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 39: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 84, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 2.625448000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=85 Win=29056 Len=0 TSval=4824855 TSecr=4823513
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 85, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 2.748046000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 41: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 85, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 2.748046000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=86 Win=29056 Len=0 TSval=4824886 TSecr=4823543
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 86, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 2.858126000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 43: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 86, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 2.858627000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=87 Win=29056 Len=0 TSval=4824913 TSecr=4823571
+
+Frame 44: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 87, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 3.027816000    10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 45: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 87, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 3.028818000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=88 Win=29056 Len=0 TSval=4824956 TSecr=4823613
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 88, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 3.166621000    10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 47: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 88, Ack: 99, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 3.167600000    10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=99 Ack=90 Win=29056 Len=0 TSval=4824991 TSecr=4823648
+
+Frame 48: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 90, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 3.171505000    10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 49: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 99, Ack: 90, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 3.171505000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=90 Ack=101 Win=29312 Len=0 TSval=4823649 TSecr=4824992
+
+Frame 50: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 90, Ack: 101, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 3.178344000    10.0.5.22             10.0.5.11             TELNET   115    Telnet Data ...
+
+Frame 51: 115 bytes on wire (920 bits), 115 bytes captured (920 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 101, Ack: 90, Len: 49
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 3.178344000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=90 Ack=150 Win=29312 Len=0 TSval=4823651 TSecr=4824993
+
+Frame 52: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 90, Ack: 150, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 3.180297000    10.0.5.22             10.0.5.11             TELNET   581    Telnet Data ...
+
+Frame 53: 581 bytes on wire (4648 bits), 581 bytes captured (4648 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 150, Ack: 90, Len: 515
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 3.180297000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=90 Ack=665 Win=30336 Len=0 TSval=4823652 TSecr=4824994
+
+Frame 54: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 90, Ack: 665, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 3.610090000    10.0.5.22             10.0.5.11             TELNET   81     Telnet Data ...
+
+Frame 55: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 665, Ack: 90, Len: 15
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 3.610090000    10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=90 Ack=680 Win=30336 Len=0 TSval=4823759 TSecr=4825101
+
+Frame 56: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 90, Ack: 680, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 13.902367000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 57: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 90, Ack: 680, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 13.903348000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 58: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 680, Ack: 91, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 13.904330000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=91 Ack=681 Win=30336 Len=0 TSval=4826333 TSecr=4827674
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 91, Ack: 681, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 14.067595000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 60: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 91, Ack: 681, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 14.068563000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 61: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 681, Ack: 92, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 14.069058000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=92 Ack=682 Win=30336 Len=0 TSval=4826374 TSecr=4827716
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 92, Ack: 682, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 14.242729000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 63: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 92, Ack: 682, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 14.243711000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 64: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 682, Ack: 93, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 14.244683000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=93 Ack=683 Win=30336 Len=0 TSval=4826418 TSecr=4827760
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 93, Ack: 683, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 14.339966000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 66: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 93, Ack: 683, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 14.341920000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 67: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 683, Ack: 94, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 14.342897000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=94 Ack=684 Win=30336 Len=0 TSval=4826442 TSecr=4827784
+
+Frame 68: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 94, Ack: 684, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 25.295454000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 69: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 94, Ack: 684, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 25.296433000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 70: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 684, Ack: 95, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 25.296433000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=95 Ack=685 Win=30336 Len=0 TSval=4829181 TSecr=4830523
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 95, Ack: 685, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 25.546568000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 72: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 95, Ack: 685, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 25.547520000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 73: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 685, Ack: 96, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 25.548469000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=96 Ack=686 Win=30336 Len=0 TSval=4829244 TSecr=4830586
+
+Frame 74: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 96, Ack: 686, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 25.581443000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 75: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 96, Ack: 686, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 25.581943000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 76: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 686, Ack: 97, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 25.615472000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 77: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 97, Ack: 687, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 25.616401000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 78: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 687, Ack: 98, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 25.650628000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 79: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 98, Ack: 688, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 25.651562000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 80: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 688, Ack: 99, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 25.684605000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 81: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 99, Ack: 689, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 25.685606000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 82: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 689, Ack: 100, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 25.717568000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 83: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 100, Ack: 690, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 25.718505000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 84: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 690, Ack: 101, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 25.752746000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 85: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 101, Ack: 691, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 25.754647000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 86: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 691, Ack: 102, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 25.786230000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 87: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 102, Ack: 692, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 25.787732000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 88: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 692, Ack: 103, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 25.821571000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 89: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 103, Ack: 693, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 25.822548000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 90: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 693, Ack: 104, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 25.854787000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 91: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 104, Ack: 694, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 25.855764000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 92: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 694, Ack: 105, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 25.888412000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 93: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 105, Ack: 695, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 25.889412000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 94: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 695, Ack: 106, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 25.922797000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 95: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 106, Ack: 696, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 25.923707000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 96: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 696, Ack: 107, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 25.957896000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 97: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 107, Ack: 697, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 25.958874000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 98: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 697, Ack: 108, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 25.992483000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 99: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 108, Ack: 698, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 25.993462000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 100: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 698, Ack: 109, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 26.029646000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 101: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 109, Ack: 699, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 26.030582000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 102: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 699, Ack: 110, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 26.062870000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 103: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 110, Ack: 700, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 26.063836000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 104: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 700, Ack: 111, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 26.099542000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 105: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 111, Ack: 701, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 26.100527000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 106: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 701, Ack: 112, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 26.134721000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 107: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 112, Ack: 702, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 26.135646000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 108: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 702, Ack: 113, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 26.169878000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 109: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 113, Ack: 703, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 26.170853000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 110: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 703, Ack: 114, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 26.206561000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 111: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 114, Ack: 704, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 26.207533000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 112: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 704, Ack: 115, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 26.239728000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 113: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 115, Ack: 705, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 26.239728000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 114: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 705, Ack: 116, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 26.274950000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 115: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 116, Ack: 706, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 26.276380000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 116: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 706, Ack: 117, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 26.308627000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 117: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 117, Ack: 707, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 26.309563000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 118: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 707, Ack: 118, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 26.342829000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 119: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 118, Ack: 708, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 26.343751000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 120: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 708, Ack: 119, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 26.379037000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 121: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 119, Ack: 709, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 26.380037000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 122: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 709, Ack: 120, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 26.415592000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 123: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 120, Ack: 710, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 26.416514000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 124: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 710, Ack: 121, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 26.449782000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 125: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 121, Ack: 711, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 26.450706000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 126: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 711, Ack: 122, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 26.483672000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 127: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 122, Ack: 712, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 26.484672000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 128: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 712, Ack: 123, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 26.518610000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 129: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 123, Ack: 713, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 26.519587000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 130: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 713, Ack: 124, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 26.560657000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=124 Ack=714 Win=30336 Len=0 TSval=4829497 TSecr=4830829
+
+Frame 131: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 124, Ack: 714, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 42.051580000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 132: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 124, Ack: 714, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 42.052559000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...[Malformed Packet]
+
+Frame 133: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 714, Ack: 125, Len: 1
+Telnet
+[Malformed Packet: TELNET]
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 42.052559000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 134: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 715, Ack: 125, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 42.052559000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=125 Ack=715 Win=30336 Len=0 TSval=4833370 TSecr=4834712
+
+Frame 135: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 125, Ack: 715, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 42.052559000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=125 Ack=716 Win=30336 Len=0 TSval=4833370 TSecr=4834712
+
+Frame 136: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 125, Ack: 716, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 42.052559000   10.0.5.22             10.0.5.11             TELNET   85     Telnet Data ...
+
+Frame 137: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 716, Ack: 125, Len: 19
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 42.053497000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=125 Ack=735 Win=30336 Len=0 TSval=4833370 TSecr=4834712
+
+Frame 138: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 125, Ack: 735, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 43.053059000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 139: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 125, Ack: 735, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 43.053982000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 140: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 735, Ack: 126, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 43.053982000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=126 Ack=736 Win=30336 Len=0 TSval=4833620 TSecr=4834962
+
+Frame 141: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 126, Ack: 736, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 43.443908000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 142: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 126, Ack: 736, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 43.444884000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 143: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 736, Ack: 127, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 43.444884000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=127 Ack=737 Win=30336 Len=0 TSval=4833718 TSecr=4835060
+
+Frame 144: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 127, Ack: 737, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 43.630507000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 145: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 127, Ack: 737, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 43.631480000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 146: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 737, Ack: 128, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 43.632458000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=128 Ack=738 Win=30336 Len=0 TSval=4833765 TSecr=4835107
+
+Frame 147: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 128, Ack: 738, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 43.819039000   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 148: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 128, Ack: 738, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 43.820016000   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 149: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 738, Ack: 129, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 43.820994000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [ACK] Seq=129 Ack=739 Win=30336 Len=0 TSval=4833812 TSecr=4835154
+
+Frame 150: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 129, Ack: 739, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 44.254754000   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 151: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 129, Ack: 739, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 44.257687000   10.0.5.22             10.0.5.11             TCP      66     23→49514 [FIN, ACK] Seq=739 Ack=131 Win=29056 Len=0 TSval=4835263 TSecr=4833920
+
+Frame 152: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 739, Ack: 131, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 44.258705000   10.0.5.11             10.0.5.22             TCP      66     49514→23 [FIN, ACK] Seq=131 Ack=740 Win=30336 Len=0 TSval=4833921 TSecr=4835263
+
+Frame 153: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_f0:45:54 (08:00:27:f0:45:54), Dst: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47)
+Internet Protocol Version 4, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 49514 (49514), Dst Port: 23 (23), Seq: 131, Ack: 740, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 44.258705000   10.0.5.22             10.0.5.11             TCP      66     23→49514 [ACK] Seq=740 Ack=132 Win=29056 Len=0 TSval=4835263 TSecr=4833921
+
+Frame 154: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d3:f3:47 (08:00:27:d3:f3:47), Dst: CadmusCo_f0:45:54 (08:00:27:f0:45:54)
+Internet Protocol Version 4, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 49514 (49514), Seq: 740, Ack: 132, Len: 0

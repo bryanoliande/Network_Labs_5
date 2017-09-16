@@ -1,0 +1,54 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.1.11             10.0.2.22             TCP      74     54303→7 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2573250 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2), Dst: CadmusCo_7e:69:45 (08:00:27:7e:69:45)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.2.22 (10.0.2.22)
+Transmission Control Protocol, Src Port: 54303 (54303), Dst Port: 7 (7), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000978000    10.0.2.22             10.0.1.11             TCP      74     7→54303 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=2574593 TSecr=2573250 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: CadmusCo_7e:69:45 (08:00:27:7e:69:45), Dst: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2)
+Internet Protocol Version 4, Src: 10.0.2.22 (10.0.2.22), Dst: 10.0.1.11 (10.0.1.11)
+Transmission Control Protocol, Src Port: 7 (7), Dst Port: 54303 (54303), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.001954000    10.0.1.11             10.0.2.22             TCP      66     54303→7 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2573251 TSecr=2574593
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2), Dst: CadmusCo_7e:69:45 (08:00:27:7e:69:45)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.2.22 (10.0.2.22)
+Transmission Control Protocol, Src Port: 54303 (54303), Dst Port: 7 (7), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.005862000    10.0.1.11             10.0.2.22             ECHO     78     [TCP Previous segment not captured] Request
+
+Frame 4: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2), Dst: CadmusCo_7e:69:45 (08:00:27:7e:69:45)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.2.22 (10.0.2.22)
+Transmission Control Protocol, Src Port: 54303 (54303), Dst Port: 7 (7), Seq: 501, Ack: 1, Len: 12
+Echo
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.005862000    10.0.2.22             10.0.1.11             TCP      78     [TCP Window Update] 7→54303 [ACK] Seq=1 Ack=1 Win=30080 Len=0 TSval=2574594 TSecr=2573251 SLE=501 SRE=513
+
+Frame 5: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: CadmusCo_7e:69:45 (08:00:27:7e:69:45), Dst: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2)
+Internet Protocol Version 4, Src: 10.0.2.22 (10.0.2.22), Dst: 10.0.1.11 (10.0.1.11)
+Transmission Control Protocol, Src Port: 7 (7), Dst Port: 54303 (54303), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 5.012310000    CadmusCo_d0:4f:f2     CadmusCo_7e:69:45     ARP      60     Who has 10.0.2.22?  Tell 10.0.2.33
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2), Dst: CadmusCo_7e:69:45 (08:00:27:7e:69:45)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 5.012310000    CadmusCo_7e:69:45     CadmusCo_d0:4f:f2     ARP      60     10.0.2.22 is at 08:00:27:7e:69:45
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_7e:69:45 (08:00:27:7e:69:45), Dst: CadmusCo_d0:4f:f2 (08:00:27:d0:4f:f2)
+Address Resolution Protocol (reply)
